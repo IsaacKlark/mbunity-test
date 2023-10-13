@@ -2,8 +2,10 @@ import Close from "../../icons/close.svg";
 import { ReactComponent as ArrowDown } from "../../icons/arrow_down.svg";
 import { ReactComponent as Avatar } from "../../icons/avatarMobile.svg";
 import { ReactComponent as Shop } from "../../icons/shop.svg";
-import { Wrapper, TopBlock, Logo, CloseButton, TextButton, TextLink, TextWrapper, ImageLink, 
-  ImageLinksWrapper } from "./styles";
+import {
+  Wrapper, TopBlock, Logo, CloseButton, TextButton, TextLink, TextWrapper, ImageLink,
+  ImageLinksWrapper
+} from "./styles";
 const MobileNavigation = ({ display, setDisplayMobileNav }) => {
 
   return (

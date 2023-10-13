@@ -1,6 +1,5 @@
-import styled from "styled-components";
 import * as Yup from 'yup';
-import { Formik,  } from "formik";
+import { Formik, } from "formik";
 import { Form, Head, TopFieldsWrapper, FieldsWrapper, Input, Button, Error, Description } from "./FormStyles";
 
 const validationSchema = Yup.object().shape({

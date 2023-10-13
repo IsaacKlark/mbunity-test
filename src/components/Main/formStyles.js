@@ -72,7 +72,7 @@ export const FieldWrapper = styled.label`
 
 export const Text = styled.p`
   text-align: start;
-  color: ${({filled}) => filled ? "black" : "#8D8D8D"};
+  color: ${({ filled }) => filled ? "black" : "#8D8D8D"};
   font-family: 'Poppins-Regular', sans-serif;
   font-size: 0.6rem;
   font-style: normal;
@@ -89,7 +89,7 @@ export const Error = styled(ErrorMessage)`
   font-weight: 500;
   line-height: 1rem;
   position: absolute;
-  bottom: ${({bottom}) => bottom ? bottom : "-1rem"};
+  bottom: ${({ bottom }) => bottom ? bottom : "-1rem"};
 `;
 
 export const RadioHead = styled.h2`

@@ -3,9 +3,11 @@ import * as Yup from "yup";
 import { useState } from "react";
 import Tick from "../../icons/tick.svg";
 import Plane from "../../icons/plane.svg";
-import { Wrapper, FieldWrapper, FieldsWrapper, Text, CustomField, Error, Radio, 
-  RadioHead, RadioLabel, RadioText, Button, ButtonWrapper, RadioWrapper, EmptyRadio, 
-  PlaneImage } from './formStyles';
+import {
+  Wrapper, FieldWrapper, FieldsWrapper, Text, CustomField, Error, Radio,
+  RadioHead, RadioLabel, RadioText, Button, ButtonWrapper, RadioWrapper, EmptyRadio,
+  PlaneImage
+} from './formStyles';
 
 const validationSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -126,7 +128,7 @@ const FormFull = () => {
         <FieldWrapper htmlFor="message">
           <Text filled={!!values.message}>Message</Text>
           <CustomField type="text" id="message" name="message" placeholder="Write your message.." />
-          <Error name="message" component="div" className="error" bottom="-1.5rem"/>
+          <Error name="message" component="div" className="error" bottom="-1.5rem" />
         </FieldWrapper>
         <ButtonWrapper>
           <Button type="submit" disabled={isSubmitting}>Send Message</Button>
