@@ -3,15 +3,15 @@ import styled from "styled-components";
 import { Form, Field, ErrorMessage } from 'formik';
 
 export const Wrapper = styled(Form)`
-  max-width: 635px;
-  padding-right: 40px;
+  max-width: 31.75rem;
+  padding-right: 2rem;
   width: 100%;
-  padding-top: 6px;
+  padding-top: 0.3rem;
   position: relative;
 
   @media(max-width: 650px) {
     padding-right: 0;
-    width: 278px;
+    width: 13.9rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -19,15 +19,15 @@ export const Wrapper = styled(Form)`
 
 export const FieldsWrapper = styled.div`
   display: flex;
-  column-gap: 39px;
-  margin-top: 45px;
+  column-gap: 1.95rem;
+  margin-top: 2.1rem;
   position: relative;
 
   @media(max-width: 650px) {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 23px;
+    margin-top: 1.15rem;
     row-gap: 0.95rem;
   }
 `;
@@ -39,10 +39,10 @@ export const CustomField = styled(Field)`
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  height: 35px;
+  line-height: 1rem;
+  height: 1.75rem;
   border-bottom: 1px solid #8D8D8D;
-  padding-bottom: 6px;
+  padding-bottom: 0.3rem;
 
   &::placeholder {
     color: #8D8D8D;
@@ -74,50 +74,50 @@ export const Text = styled.p`
   text-align: start;
   color: ${({filled}) => filled ? "black" : "#8D8D8D"};
   font-family: 'Poppins-Regular', sans-serif;
-  font-size: 12px;
+  font-size: 0.6rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1rem;
 `;
 
 export const Error = styled(ErrorMessage)`
   text-align: start;
   color: red;
   font-family: 'Poppins-Regular', sans-serif;
-  font-size: 12px;
+  font-size: 0.6rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1rem;
   position: absolute;
-  bottom: ${({bottom}) => bottom ? bottom : "-20px"};
+  bottom: ${({bottom}) => bottom ? bottom : "-1rem"};
 `;
 
 export const RadioHead = styled.h2`
   color: #000;
-  margin-top: 45px;
+  margin-top: 2.25rem;
   font-family: 'Poppins-Medium', sans-serif;
   font-size: 0.7rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 20px;
-  margin-bottom: 12px;
+  line-height: 1rem;
+  margin-bottom: 0.6rem;
   text-align: start;
 
   @media(max-width: 650px) {
     margin-top: 1.3rem;
-    margin-bottom: 9px;
+    margin-bottom: 0.45rem;
   }
 `;
 
 export const RadioWrapper = styled.div`
   display: flex;
   column-gap: 1.05rem;
-  margin-bottom: 48px;
+  margin-bottom: 2.4rem;
 
   @media(max-width: 650px) {
     flex-wrap: wrap;
-    row-gap: 15px;
-    margin-bottom: 28px;
+    row-gap: 0.75rem;
+    margin-bottom: 1.4rem;
   }
 `;
 
@@ -143,10 +143,10 @@ export const EmptyRadio = styled.div`
 export const RadioText = styled.p`
   color: #000;
   font-family: 'Poppins-Regular', sans-serif;
-  font-size: 12px;
+  font-size: 0.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1rem;
 
   @media(max-width: 650px) {
     white-space: nowrap;
@@ -166,8 +166,8 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 214px;
-  height: 54px;
+  width: 10.7rem;
+  height: 2.7rem;
   background-color: black;
   color: white;
   text-align: center;
@@ -176,12 +176,13 @@ export const Button = styled.button`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 45px;
+  margin-top: 2.25rem;
   border-radius: 5px;
   box-shadow: 0px 0px 0.7rem 0px rgba(0, 0, 0, 0.12);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 
   &:hover {
     cursor: pointer;
@@ -189,24 +190,24 @@ export const Button = styled.button`
   }
 
   @media(max-width: 650px) {
-    margin-top: 24px;
-    width: 278px;
-    height: 38px;
+    margin-top: 1.2rem;
+    width: 13.9rem;
+    height: 1.9rem;
     font-size: 0.65rem;
   }
 `;
 
 export const PlaneImage = styled.img`
   position: absolute;
-  bottom: -50px;
-  right: 123px;
-  width: 267px;
-  height: 220px;
+  bottom: -2.5rem;
+  right: 6.15rem;
+  width: 13.35rem;
+  height: 11rem;
 
   @media(max-width: 650px) {
-    bottom: -88px;
-    right: 123px;
-    width: 121px;
-    height: 105px;
+    bottom: -4.4rem;
+    right: 6.15rem;
+    width: 6.05rem;
+    height: 5.25rem;
   }
 `;

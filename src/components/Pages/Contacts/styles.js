@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Head = styled.h1`
   font-family: 'Poppins-Bold', sans-serif;
   color: #000;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: normal;
   text-align: center;
 
   @media(max-width: 650px) {
-    font-size: 24px;
+    font-size: 1.2rem;
   }
 `;
 
@@ -21,11 +21,11 @@ export const Text = styled.p`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 9px;
+  margin-top: 0.45rem;
 
   @media(max-width: 650px) {
     font-size: 0.7rem;
-    width: 190px;
+    width: 9.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -33,13 +33,13 @@ export const Text = styled.p`
 
 export const Main = styled.div`
   display: flex;
-  margin: 50px auto;
+  margin: 2.5rem auto;
   padding: 0.5rem;;
   justify-content: center;
-  column-gap: 50px;
+  column-gap: 2.5rem;
 
   @media(max-width: 650px) {
     flex-direction: column;
-    margin: 15px auto 103px;
+    margin: 0.75rem auto 5.15rem;
   }
 `;

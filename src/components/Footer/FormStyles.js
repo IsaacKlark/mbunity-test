@@ -46,12 +46,12 @@ export const FieldsWrapper = styled.div`
 `;
 
 export const Input = styled(Field)`
-  width: 172px;
-  height: 39px;
+  width: 8.6rem;
+  height: 1.95rem;
   background-color: #1E1E1E;
   color: #616161;
   font-family: 'Poppins-Regular';
-  font-size: 11px;
+  font-size: 0.55rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -60,14 +60,14 @@ export const Input = styled(Field)`
 
 export const Button = styled.button`
   background-color: black;
-  width: 105px;
-  height: 39px;
+  width: 5.25rem;
+  height: 1.95rem;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Poppins-Medium';
-  font-size: 12px;
+  font-size: 0.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -82,12 +82,12 @@ export const Error = styled(ErrorMessage)`
   text-align: start;
   color: red;
   font-family: 'Poppins-Regular', sans-serif;
-  font-size: 9px;
+  font-size: 0.45rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1rem;
   position: absolute;
-  bottom: ${({ bottom }) => bottom ? bottom : "-20px"};
+  bottom: ${({ bottom }) => bottom ? bottom : "-1rem"};
 `;
 
 export const Description = styled.p`
@@ -102,7 +102,7 @@ export const Description = styled.p`
   letter-spacing: 0.0.8rem;
 
   @media(max-width: 650px) {
-    width: 246px;
+    width: 12.3rem;
   }
 `;
 

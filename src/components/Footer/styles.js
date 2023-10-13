@@ -4,26 +4,26 @@ import { Link } from "react-router-dom";
 export const Wrapper = styled.footer`
   width: 100%;
   background-color: black;
-  padding: 80px 80px 43px;
+  padding: 4rem 4rem 2.15rem;
 
   @media(max-width: 650px) {
-    padding: 0.9rem 20px 35px;
+    padding: 0.9rem 1rem 1.75rem;
   }
 `;
 
 export const Logo = styled.div`
   width: 100%;
-  padding-bottom: 45px;
+  padding-bottom: 2.25rem;
   color: white;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 36px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   border-bottom: 1px solid white;
   
   @media(max-width: 650px) {
-    padding-left: 28px;
+    padding-left: 1.4rem;
     padding-bottom: 1.1rem;
   }
 `;
@@ -32,31 +32,31 @@ export const Main = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  flex-wrap: wrap;
 
-  @media(max-width: 650px) {
+  @media(max-width: 970px) {
+    flex-wrap: wrap;
   }
 `;
 
 export const ColumnHead = styled.p`
-  margin-top: 30px;
+  margin-top: 1.5rem;
   font-family: 'Poppins-Medium', sans-serif;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.3rem;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   text-align: start;
 
   @media(max-width: 650px) {
     font-size: 0.8rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.6rem;
   }
 `;
 
 export const Column1 = styled.div`
-  padding-left: 20px;
+  padding-left: 1rem;
   margin-right: 0.2rem;
 
   @media(max-width: 650px) {
@@ -66,11 +66,11 @@ export const Column1 = styled.div`
 `;
 
 export const Column = styled.div`
-  padding-left: 20px;
-  margin-right: 60px;
+  padding-left: 1rem;
+  margin-right: 3rem;
   display: flex;
   flex-direction: column;
-  margin-right: 41px;
+  margin-right: 2.05rem;
 
   @media(max-width: 650px) {
     padding-left: 0px;
@@ -80,22 +80,22 @@ export const Column = styled.div`
 
 export const InfoWrapper = styled.div`
   display: flex;
-  column-gap: 25px;
-  margin-bottom: 24px;
+  column-gap: 1.25rem;
+  margin-bottom: 1.2rem;
 
   img {
-    width: 24px;
-    height: 24px;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   @media(max-width: 650px) {
     flex-direction: column;
-    row-gap: 9px;
+    row-gap: 0.45rem;
     margin-bottom: 0.8rem;
 
     img {
       position: relative;
-      left: -3px;
+      left: -0.15rem;
     }
   }
 `;
@@ -108,11 +108,11 @@ export const Text = styled.p`
   font-weight: 400;
   line-height: normal;
   text-align: start;
-  max-width: 309px;
+  max-width: 15.45rem;
 
   @media(max-width: 650px) {
-    font-size: 12px;
-    max-width: 163px;
+    font-size: 0.6rem;
+    max-width: 8.15rem;
   }
 `
 
@@ -126,11 +126,11 @@ export const CustomLink = styled(Link)`
   text-align: start;
   text-decoration: none;
   white-space: nowrap;
-  margin-bottom: 24px;
+  margin-bottom: 1.2rem;
 
   @media(max-width: 650px) {
-    font-size: 12px;
-    margin-top: 6px;
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
     margin-bottom: 0.7rem;
   }
 `;
@@ -138,7 +138,7 @@ export const CustomLink = styled(Link)`
 export const Links = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-right: 55px;
+  margin-right: 2.75rem;
 
   @media(max-width: 650px) {
     margin-right: 0;

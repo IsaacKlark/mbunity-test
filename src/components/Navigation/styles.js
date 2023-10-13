@@ -3,20 +3,20 @@ import { Link, NavLink } from "react-router-dom";
 
 export const Nav = styled.nav`
   display: flex;
-  padding: 40px 100px;
+  padding: 2rem 5rem;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 33px;
+  margin-bottom: 1.65rem;
 
   @media(max-width: 650px) {
-    padding: 28px 20px 0.5rem;;
+    padding: 1.4rem 1rem 0.5rem;;
   }
 `;
 
 export const Logo = styled.p`
   font-family: 'Inter-Bold', sans-serif;
   color: #000;
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: 800;
   line-height: normal;
 
@@ -33,7 +33,7 @@ export const Wrapper = styled.div`
 export const ImagesWrapper = styled.div`
   display: flex;
   align-items: center;
-  column-gap: 36px;
+  column-gap: 1.8rem;
   width: max-content;
 
   @media(max-width: 650px) {
@@ -44,9 +44,9 @@ export const ImagesWrapper = styled.div`
 export const TextWrapper = styled.div`
  display: flex;
   align-items: center;
-  column-gap: 47px;
+  column-gap: 2.35rem;
   width: max-content;
-  margin-right: 61px;
+  margin-right: 3.05rem;
 
   @media(max-width: 650px) {
     display: none;
@@ -54,8 +54,8 @@ export const TextWrapper = styled.div`
 `;
 
 export const ImageLink = styled(Link)`
-  width: 31px;
-  height: 31.538px;
+  width: 1.55rem;
+  height: 1.5769rem;
   flex-shrink: 0;
   stroke-width: 1px;
   stroke: #000;
@@ -95,23 +95,23 @@ export const TextButton = styled.button`
   width: max-content;
   display: flex;
   align-items: center;
-  column-gap: 7px;
-  margin-right: -5px;
+  column-gap: 0.35rem;
+  margin-right: -0.25rem;
 
   img {
-    width: 12px;
-    height: 12px;
+    width: 0.6rem;
+    height: 0.6rem;
   }
 `;
 
 export const MenuButton = styled.button`
-  width: 24px;
-  height: 24px;
+  width: 1.2rem;
+  height: 1.2rem;
   background-color: transparent;
 
   img {
-    width: 24px;
-    height: 24px;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   @media(min-width: 650px) {

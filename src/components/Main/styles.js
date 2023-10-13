@@ -1,38 +1,38 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 491px;
-  height: 647px;
+  width: 24.55rem;
+  height: 32.35rem;
   flex-shrink: 0;
   background-color: black;
-  padding: 40px 40px 36px;
+  padding: 2rem 2rem 1.8rem;
   position: relative;
   border-radius: 0.5rem;;
   overflow: hidden;
 
   @media(max-width: 650px) {
-    width: 310px;
-    height: 397px;
+    width: 15.5rem;
+    height: 19.85rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px;
-    padding: 0.8rem 40px 36px;
+    border-radius: 0.3rem;
+    padding: 0.8rem 2rem 1.8rem;
   }
 `;
 
 export const Head = styled.h2`
   color: white;
   font-family: "Poppins-Medium", sans-serif;
-  font-size: 28px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 6px;
+  margin-bottom: 0.3rem;
   text-align: start;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.0.75rem;
 
   @media(max-width: 650px) {
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
   }
 `;
@@ -45,11 +45,11 @@ export const TextMiddle = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 111px;
+  margin-bottom: 5.55rem;
   text-align: start;
 
   @media(max-width: 650px) {
-    font-size: 11px;
+    font-size: 0.55rem;
     text-align: center;
     margin-bottom: 0.65rem;
   }
@@ -57,18 +57,18 @@ export const TextMiddle = styled.p`
 
 export const InfoWrapper = styled.div`
   display: flex;
-  column-gap: 25px;
-  margin-bottom: 50px;
+  column-gap: 1.25rem;
+  margin-bottom: 2.5rem;
 
   img {
-    width: 24px;
-    height: 24px;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   @media(max-width: 650px) {
     flex-direction: column;
-    row-gap: 9px;
-    margin-bottom: 15px;
+    row-gap: 0.45rem;
+    margin-bottom: 0.75rem;
     align-items: center;
   }
 `;
@@ -81,22 +81,22 @@ export const Text = styled.p`
   font-weight: 400;
   line-height: normal;
   font-family: "Poppins-Regular", sans-serif;
-  max-width: 298px;
+  max-width: 14.9rem;
   text-align: start;
 
   @media(max-width: 650px) {
     flex-direction: column;
-    font-size: 12px;
+    font-size: 0.6rem;
     text-align: center;
   }
 `;
 
 export const CirclesImage = styled.img`
-  height: 210px;
+  height: 10.5rem;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 208px;
+  width: 10.4rem;
 
   @media(max-width: 650px) {
     display: none;
@@ -104,11 +104,11 @@ export const CirclesImage = styled.img`
 `;
 
 export const Ellipse1Img = styled.img`
-  height: 101px;
+  height: 5.05rem;
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 81px;
+  width: 4.05rem;
 
   @media(min-width: 650px) {
     display: none;
@@ -116,11 +116,11 @@ export const Ellipse1Img = styled.img`
 `;
 
 export const Ellipse2Img = styled.img`
-  height: 54px;
+  height: 2.7rem;
   position: absolute;
-  bottom: 52px;
+  bottom: 2.6rem;
   right: 1.3rem;
-  width: 54px;
+  width: 2.7rem;
 
   @media(min-width: 650px) {
     display: none;
@@ -131,19 +131,19 @@ export const BottomWrapper = styled.div`
   bottom: 0;
   left: 0;
   display: flex;
-  column-gap: 24px;
-  margin-top: 159px;
+  column-gap: 1.2rem;
+  margin-top: 7.95rem;
 
   @media(max-width: 650px) {
-    margin-top: 58px;
+    margin-top: 2.9rem;
     justify-content: center;
   }
 `;
 
 export const Link = styled.a`
   svg {
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
 
     circle {
       fill: #1B1B1B;
